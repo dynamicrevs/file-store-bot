@@ -27,9 +27,9 @@ API_HASH = environ.get("API_HASH", "470da6bd517277ac20c0b6b3a14d3807")
 ADMINS = int(environ.get("ADMINS", "6500565840"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://cinematicexp:cinematicexp@cluster0.i53lrb9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://cinematicexp:cinematicexp@cluster0.i53lrb9.mongodb.net/?retryWrites=true&w=majority")
 CDB_NAME = environ.get("CDB_NAME", "Cluster0")
-DB_URI = environ.get("DB_URI", "mongodb+srv://cinematicexp:cinematicexp@cluster0.6ffqlsw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://cinematicexp:cinematicexp@cluster0.6ffqlsw.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 
